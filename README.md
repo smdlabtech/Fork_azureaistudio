@@ -55,16 +55,16 @@ This template deploys the following:
 
 Fill out the form and click `Review + create`
 
-![aasportalqs](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/aasportalqs.png)
+![amlportalqs](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/amlportalqs.png)
 
 Click `Create`
 
-![createaas](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createaas.png)
+![createaml](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createaml.png)
 
 
 The deployed services should look something like this:
 
-![aasresources](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/aasresources.png)
+![amlresources](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/amlresources.png)
 
 ## Deploy Demo Project Resources
 
