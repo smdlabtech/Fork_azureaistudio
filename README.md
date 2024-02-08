@@ -15,20 +15,56 @@ Based on the Quickstart template for the [Azure AI Studio basic setup](https://g
 
 This template deploys the following:
 
-- Azure Data Factory
-- Azure Databricks Workspace
-- Azure Data Lake Storage Gen2
-- Azure SQL Database
+- Azure AI Studio
+- Azure AI services
+- Application Insights
+- Container registry
+- Key vault
+- Storage account
+
+Fill out the form and click `Review + create`
+
+![aasportalqs](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/aasportalqs.png)
+
+Click `Create`
+
+![createaas](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createaas.png)
+
 
 The deployed services should look something like this:
-`Note the Event Grid and Key vault services are added during the Next Steps below`
 
-![landstagedeployment](https://raw.githubusercontent.com/DataSnowman/MyDataMesh/main/images/landstagedeployment.png)
+![aasresources](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/aasresources.png)
 
 
 ## Deploy Azure Machine Learning
 
+### Azure Machine Learning service workspace
+Based on the Quickstart template for the [Create an Azure Machine Learning service workspace](https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.machinelearningservices/machine-learning-workspace/README.md)
 
+
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.machinelearningservices%2Fmachine-learning-workspace%2Fazuredeploy.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.machinelearningservices%2Fmachine-learning-workspace%2Fazuredeploy.json)
+
+This template deploys the following:
+
+- Azure Machine Learning workspace
+- Application Insights
+- Container registry
+- Key vault
+- Storage account
+
+Fill out the form and click `Review + create`
+
+![aasportalqs](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/aasportalqs.png)
+
+Click `Create`
+
+![createaas](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createaas.png)
+
+
+The deployed services should look something like this:
+
+![aasresources](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/aasresources.png)
 
 ## Deploy Demo Project Resources
 
