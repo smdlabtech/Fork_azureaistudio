@@ -1,7 +1,29 @@
-# azureaistudio
+# Azure AI Studio Demo and Workshop
+
+This is a GitHub Repo for an Azure AI Studio Demo and Workshop deployed using Azure ARM Templates Accelerators and a Bicep Template to deploy you development environment.  It include three development use cases: 
+1) Build a RAG App in the Azure AI Studio Playground
+2) Build a RAG App in Azure AI Studio using Code-First
+3) Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
 
 ## Deploy Azure AI Studio
 
+### Azure AI Studio basic setup
+Based on the Quickstart template for the [Azure AI Studio basic setup](https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.machinelearningservices/aistudio-basics/README.md)
+
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.machinelearningservices%2Faistudio-basics%2Fazuredeploy.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.machinelearningservices%2Faistudio-basics%2Fazuredeploy.json)
+
+This template deploys the following:
+
+- Azure Data Factory
+- Azure Databricks Workspace
+- Azure Data Lake Storage Gen2
+- Azure SQL Database
+
+The deployed services should look something like this:
+`Note the Event Grid and Key vault services are added during the Next Steps below`
+
+![landstagedeployment](https://raw.githubusercontent.com/DataSnowman/MyDataMesh/main/images/landstagedeployment.png)
 
 
 ## Deploy Azure Machine Learning
