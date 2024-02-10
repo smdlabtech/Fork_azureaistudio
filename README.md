@@ -158,16 +158,6 @@ Click on the Playground tab in the Tools on the left nav
 
 ![playgroundfaq](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/playgroundfaq.png)
 
-In the System message change it slightly to read as follows:
-
-```
-You are an AI assistant that helps people find information on Frequently Asked Questions.
-```
-
-Click on `Apply changes` and `Continue`
-
-![applychanges](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/applychanges.png)
-
 Notice the banner near the top of the page
 `No deployment exists: You need a deployment to work in the playground. Navigate to the Deployment page to create a deployment.` 
 
@@ -211,12 +201,22 @@ Click `Deploy`
 
 You should have you second model deployment
 
-![twomodel](https://raw.githubusercontent.com/datasnowman/
-azureaistudio/main/media/twomodel.png)
+![twomodel](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/twomodel.png)
 
+Click back on `Playground` on the left nav
 
+![playground](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/playground.png)
 
+In the System message change it slightly to read as follows:
 
+```
+You are an AI assistant that helps people find information on 
+Frequently Asked Questions.
+```
+
+Click on `Apply changes` and `Continue`
+
+![applychanges](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/applychanges.png)
 
 
 
