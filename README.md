@@ -218,7 +218,41 @@ Click on `Apply changes` and `Continue`
 
 ![applychanges](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/applychanges.png)
 
+Prepare to Add your data
 
+Make sure you use the storage account and Azure AI Search you created with Bicep earlier in [Deploy Demo Project Resources](https://github.com/datasnowman/azureaistudio/tree/main#deploy-demo-project-resources)
+, as the storage account must be in the same region as Azure AI Search.
+
+* Navigate to the storage account created with Bicep in the Azure portal.
+* Select the Containers option from the Data storage menu.
+* Create a new container using the + Container option. Name the container `contoso-suites`.
+
+![container](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/container.png)
+
+Back in the Azure AI Studio Playground click on the `Add your data` tab and click `Add a datasource` button
+
+![addadatasource](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/container.png)
+
+Click on the `Turn on CORS` button
+
+![cors](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/cors.png)
+
+Enter a Index name like `contoso-suites`, 
+Click the check box for `Add vector search for this resource`,
+Select the Ada embedding model,
+and click the check box for `I acknowledge that connecting to an Azure AI Search account will incur usage to my account`
+Click `Next`
+
+![next](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/next.png)
+
+
+
+
+
+
+
+
+* Inside the `contoso-suites` container, select the Upload option and choose each text file.
 
 
 
