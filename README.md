@@ -189,6 +189,34 @@ Click `Deploy`
 
 ![deploygpt4model](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deploygpt4model.png)
 
+You should have you first model deployment
+
+![onemodel](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/onemodel.png)
+
+Click back on the Deployments on the left nav and click `+Create` again
+
+![deployada](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deployada.png)
+
+Select Real-time endpoint
+
+![rte](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/rte.png)
+
+Search for `ada` and select `text-embedding-ada-002` and click `Confirm`
+
+![ada](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/ada.png)
+
+Click `Deploy`
+
+![deployadamodel](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deployadamodel.png)
+
+You should have you second model deployment
+
+![twomodel](https://raw.githubusercontent.com/datasnowman/
+azureaistudio/main/media/twomodel.png)
+
+
+
+
 
 
 
