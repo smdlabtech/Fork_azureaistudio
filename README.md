@@ -6,7 +6,7 @@ This is a GitHub Repo for an Azure AI Studio Demo and Workshop deployed using Az
 
 2) [Build a RAG App in Azure AI Studio using Code-First](https://github.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-azure-ai-studio-using-code-first)
 
-3) [Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground](https://github.com/datasnowman/azureaistudio/tree/main#build-a-chstgpt4-turbo-with-vision-app-in-the-azure-ai-studio-playground)
+3) [Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground](https://github.com/datasnowman/azureaistudio/tree/main#build-a-chatgpt4-turbo-with-vision-app-in-the-azure-ai-studio-playground)
 
 ## Prereqs
 
