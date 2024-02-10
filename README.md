@@ -210,8 +210,7 @@ Click back on `Playground` on the left nav
 In the System message change it slightly to read as follows:
 
 ```
-You are an AI assistant that helps people find information on 
-Frequently Asked Questions.
+You are an AI assistant that helps people find information on Frequently Asked Questions.
 ```
 
 Click on `Apply changes` and `Continue`
@@ -222,12 +221,6 @@ Prepare to Add your data
 
 Make sure you use the storage account and Azure AI Search you created with Bicep earlier in [Deploy Demo Project Resources](https://github.com/datasnowman/azureaistudio/tree/main#deploy-demo-project-resources)
 , as the storage account must be in the same region as Azure AI Search.
-
-* Navigate to the storage account created with Bicep in the Azure portal.
-* Select the Containers option from the Data storage menu.
-* Create a new container using the + Container option. Name the container `contoso-suites`.
-
-![container](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/container.png)
 
 Back in the Azure AI Studio Playground click on the `Add your data` tab and click `Add a datasource` button
 
@@ -282,6 +275,50 @@ What hotels are available?
 Here is what should be returned
 
 ![availablehotels](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/availablehotels.png)
+
+Add speech to text by clicking on the microphone in the chatbox
+
+![chatbox](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/chatbox.png)
+
+Enable Speech to text and Text to Speech
+Pick a Voice configuration and select `Play`
+Click `Save`
+
+![enablespeech](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/enablespeech.png)
+
+Click on the microphone in the chatbox and say `How many rooms in the Oceanview Inn?` and click the run arrow
+
+![rooms](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/rooms.png)
+
+The voice "Amber" should tell you it has 60 rooms
+
+![sixty](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/sixty.png)
+
+Deploy a new web app
+
+![deploynewwebapp](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deploynewwebapp.png)
+
+Fill out the form and click `Deploy`
+
+![deploywebapp](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deploywebapp.png)
+
+Wait on the page for it to deploy
+
+![wait](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/wait.png)
+
+Click on the `Launch` button
+
+![launch](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/launch.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
