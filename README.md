@@ -164,6 +164,37 @@ In the System message change it slightly to read as follows:
 You are an AI assistant that helps people find information on Frequently Asked Questions.
 ```
 
+Click on `Apply changes` and `Continue`
+
+![applychanges](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/applychanges.png)
+
+Notice the banner near the top of the page
+`No deployment exists: You need a deployment to work in the playground. Navigate to the Deployment page to create a deployment.` 
+
+![deploymentbanner](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deploymentbanner.png)
+
+Click on Deployments in the Components on the left nav and click `+Create`
+
+![deployments](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deployments.png)
+
+Select Real-time endpoint
+
+![rte](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/rte.png)
+
+Select gpt4 and click `Confirm`
+
+![gpt4](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/gpt4.png)
+
+Click `Deploy`
+
+![deploygpt4model](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deploygpt4model.png)
+
+
+
+
+
+
+
 
 
 Need for this
@@ -179,6 +210,6 @@ Need for this
 
 
 
-## Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
+### Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
 
 Remember that fourturbovision Azure OpenAI is only in West US
