@@ -1,7 +1,10 @@
 # Azure AI Studio Demo and Workshop
 
 This is a GitHub Repo for an Azure AI Studio Demo and Workshop deployed using Azure ARM Templates Accelerators and a Bicep Template to deploy you development environment.  It include three development use cases: 
-1) Build a RAG App in the Azure AI Studio Playground
+1) [Build a RAG App in the Azure AI Studio Playground](https://raw.githubusercontent.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-the-azure-ai-studio-playground)
+
+
+
 2) Build a RAG App in Azure AI Studio using Code-First
 3) Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
 
@@ -106,7 +109,7 @@ Once your deployment completes, you should see all of your resources in the reso
 
 ## Development Usecases
 
-### 1) Build a RAG App in the Azure AI Studio Playground
+### Build a RAG App in the Azure AI Studio Playground
 
 Open up the Resource Group that you deployed AI Studio into and click on the Azure AI resource
 
