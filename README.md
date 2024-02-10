@@ -103,3 +103,69 @@ At this point, the deployment script will kick off. You can select the link in t
 Once your deployment completes, you should see all of your resources in the resource group you have created. These include and Azure OpenAI service, an Azure AI Search service, a Speech service, and a storage account.
 
 ![bicepservices](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/bicepservices.png)
+
+## Development Usecases
+
+### 1) Build a RAG App in the Azure AI Studio Playground
+
+Open up the Resource Group that you deployed AI Studio into and click on the Azure AI resource
+
+![azureai](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/azureai.png
+
+Click on `Launch Azure AI Studio`
+
+![launchaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/launchaistudio.png
+
+This will take you to the Manage tab of Azure AI Studio
+
+![manageaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/manageaistudio.png)
+
+Navigate to the All Azure AI Dropdown.  We won't look at these now, but this is where you would navigate to the other Azure AI Cognitive Services Studios like Azure Machine Learning Studio and Speech Studio.
+
+![allazureai](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/allazureai.png)
+
+
+Navigate to the Home tab and have a look around the page
+
+![homeaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/homeaistudio.png)
+
+Navigate to the Explore tab and look around (`explore`) the page
+
+![exploreaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/exploreaistudio.png)
+
+Navigate to the Build tab and look around the page
+
+![buildaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/buildaistudio.png)
+
+In the Build tab click `New project`.  Call the project something like `faq` and click the `Create a project` button
+
+![createaprojectfaq](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createaprojectfaq.png)
+
+Click on the Playground tab in the Tools on the left nav
+
+![playgroundfaq](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/playgroundfaq.png)
+
+In the System message change it slightly to read as follows:
+
+```
+You are an AI assistant that helps people find information on Frequently Asked Questions.
+```
+
+
+
+Need for this
+
+![needforragplayground](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/needforragplayground.png)
+
+
+
+### 2) Build a RAG App in Azure AI Studio using Code-First
+
+
+
+
+
+
+## 3) Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
+
+Remember that fourturbovision Azure OpenAI is only in West US
