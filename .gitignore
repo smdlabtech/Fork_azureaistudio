@@ -32,6 +32,13 @@ MANIFEST
 *.manifest
 *.spec
 
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
