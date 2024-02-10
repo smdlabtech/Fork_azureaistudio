@@ -123,11 +123,11 @@ Once your deployment completes, you should see all of your resources in the reso
 
 Open up the Resource Group that you deployed AI Studio into and click on the Azure AI resource
 
-![azureai](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/azureai.png
+![azureai](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/azureai.png)
 
 Click on `Launch Azure AI Studio`
 
-![launchaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/launchaistudio.png
+![launchaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/launchaistudio.png)
 
 This will take you to the Manage tab of Azure AI Studio
 
@@ -244,6 +244,51 @@ and click the check box for `I acknowledge that connecting to an Azure AI Search
 Click `Next`
 
 ![next](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/next.png)
+
+Navigate to the files `hotels.txt` and `resorts.txt` in the Repo that you cloned /datasnowman/azureaistudio/data
+
+Upload the file by clicking `Upload files`
+
+![upload](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/upload.png)
+
+Click `Next`
+
+![uploadfiles](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/uploadfiles.png)
+
+Select `Hbrid (vector + keyword)` and check the Acknowledge checkbox and click `Next`
+
+![hybridvector](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/hybridvector.png)
+
+Click `Save and close`
+
+![saveandclose](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/saveandclose.png)
+
+The Ingestion in progress should be visable
+
+![ingest](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/ingest.png)
+
+The data should be uploaded and indexed
+
+![uploadedindexed](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/uploadedindexed.png)
+
+Test the with Start Chatting.  Enter this into the Chat and click the run arrow
+
+```
+What hotels are available?
+```
+
+![startchatting](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/startchatting.png)
+
+Here is what should be returned
+
+![availablehotels](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/availablehotels.png)
+
+
+
+
+
+
+
 
 
 
