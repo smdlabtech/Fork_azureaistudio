@@ -1,12 +1,21 @@
 # Azure AI Studio Demo and Workshop
 
-This is a GitHub Repo for an Azure AI Studio Demo and Workshop deployed using Azure ARM Templates Accelerators and a Bicep Template to deploy you development environment.  It include three development use cases: 
-1) [Build a RAG App in the Azure AI Studio Playground](https://raw.githubusercontent.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-the-azure-ai-studio-playground)
+This is a GitHub Repo for an Azure AI Studio Demo and Workshop deployed using Azure ARM Templates Accelerators and a Bicep Template to deploy you development environment.  It include three development use cases:
+ 
+1) [Build a RAG App in the Azure AI Studio Playground](https://github.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-the-azure-ai-studio-playground)
 
+2) [Build a RAG App in Azure AI Studio using Code-First](https://github.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-azure-ai-studio-using-code-first)
 
+3) [Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground](https://github.com/datasnowman/azureaistudio/tree/main#build-a-chstgpt4-turbo-with-vision-app-in-the-azure-ai-studio-playground)
 
-2) Build a RAG App in Azure AI Studio using Code-First
-3) Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
+## Prereqs
+
+Clone this GitHub repo
+
+```
+git clone https://github.com/DataSnowman/azureaistudio.git
+```
+
 
 ## Deploy Azure AI Studio
 
@@ -162,13 +171,13 @@ Need for this
 
 
 
-### 2) Build a RAG App in Azure AI Studio using Code-First
+### Build a RAG App in Azure AI Studio using Code-First
 
 
 
 
 
 
-## 3) Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
+## Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
 
 Remember that fourturbovision Azure OpenAI is only in West US
