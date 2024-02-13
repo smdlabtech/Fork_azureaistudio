@@ -315,41 +315,6 @@ When the app deploys try it out
 ![app](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/app.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Inside the `contoso-suites` container, select the Upload option and choose each text file.
-
-
-
-
-
-
-Need for this
-
-![needforragplayground](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/needforragplayground.png)
-
-
-
 ### Build a RAG App in Azure AI Studio using Code-First
 
 
