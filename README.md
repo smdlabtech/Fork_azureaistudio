@@ -310,6 +310,9 @@ Click on the `Launch` button
 
 ![launch](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/launch.png)
 
+When the app deploys try it out
+
+![app](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/app.png)
 
 
 
