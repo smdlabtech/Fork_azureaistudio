@@ -432,6 +432,61 @@ Click `Open in playground`
 
 ![openinpgvision](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/openinpgvision.png)
 
+In the Start chatting section enter the following:
+
+```
+Describe this image and where I could visit the location
+```
+
+And click on the paperclip attach to add the following picture `beaverlodge.jpg` from the path of the cloned repo `azureaistudio\data\beaverlodge.jpg`
+
+![beaverlodge](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/data/beaverlodge.png)
+
+![visionchat](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/visionchat.png)
+
+Click on the run arrow and it should return something like this:
+
+![responseimage1](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/responseimage1.png)
+
+Lets try another image of a vehicle registration
+
+In the Start chatting section enter the following:
+
+```
+Extract the Vehicle Registration fields as json: Registration no, Plate no, Year, Make, Model, Body style, VIC, Colour, VIN, Fuel type, Net weight, Seating capacity, Vechicle type, Anti-theft device
+```
+
+And click on the paperclip attach to add the following picture `bcicbcregistration.png` from the path of the cloned repo `azureaistudio\data\bcicbcregistration.png`
+
+![bcicbcregistration](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/data/bcicbcregistration.png)
+
+![visionchat2](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/visionchat2.png)
+
+Click on the run arrow and it should return something like this:
+
+```
+{  
+  "Registration_no": "5557227",  
+  "Plate_no": "1998FK",  
+  "Year": "1998",  
+  "Make": "SATURN",  
+  "Model": "SL2",  
+  "Body_style": "4DSDN",  
+  "VIC": "PR4645D",  
+  "Colour": "GRAY",  
+  "VIN": "1G8ZK5277WZ273105",  
+  "Fuel_type": "GASOLINE",  
+  "Net_weight": "0125KG",  
+  "Seating_capacity": "5",  
+  "Vehicle_type": "PASSENGER",  
+  "Anti-theft_device": "PASSIVE IMMOBILIZER"  
+}  
+```
+
+![responseimage2](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/responseimage2.png)
+
+
+
 
 
 
