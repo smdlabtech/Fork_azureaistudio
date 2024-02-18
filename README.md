@@ -416,6 +416,22 @@ Click on Deployements and click +Create
 
 ![pluscreateturbo](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/pluscreateturbo.png)
 
+Select Real-time endpoint
+
+![rte](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/rte.png)
+
+Select gpt4 and click `Confirm`
+
+![gpt4](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/gpt4.png)
+
+Choose Model version `Vision-preview`.  Click `Deploy`
+
+![deployvisionmodel](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/deployvisionmodel.png)
+
+Click `Open in playground`
+
+![openinpgvision](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/openinpgvision.png)
+
 
 
 
