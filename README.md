@@ -388,5 +388,37 @@ When you are done remember to Stop the compute
 
 [Deploy Azure AI Studio](https://github.com/datasnowman/azureaistudio/tree/main#deploy-azure-ai-studio)
 
+Create a Azure AI Studio deployment
+
+![demoturboviz](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/demoturboviz.png)
+
+Click on the AI service
+
+![aiserviceturbo](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/aiserviceturbo.png)
+
+Click on `Launch Azure AI Studio`
+
+![launchturboaistudio](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/launchturboaistudio.png)
+
+You will land here.  Click on the Build tab
+
+![manageturbo](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/manageturbo.png)
+
+`Click New AI project`
+
+![buildturbo](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/buildturbo.png)
+
+Click `Create an AI project`
+
+![createanaiprojectturbo](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createanaiprojectturbo.png)
+
+Click on Deployements and click +Create
+
+![pluscreateturbo](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/pluscreateturbo.png)
+
+
+
+
+
 
 
