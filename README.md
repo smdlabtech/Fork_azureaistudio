@@ -4,18 +4,35 @@ This is a GitHub Repo for an Azure AI Studio Demo and Workshop deployed using Az
  
 1) [Build a RAG App in the Azure AI Studio Playground](https://github.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-the-azure-ai-studio-playground)
 
-2) [Build a RAG App in Azure AI Studio using Code-First](https://github.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-azure-ai-studio-using-code-first
-)
+    ### Prereqs            
+
+    Clone this GitHub repo
+
+    ```    
+    git clone https://github.com/DataSnowman/azureaistudio.git
+    ```
+
+    `Note: At the time of this demo (Feb 23, 2024) the East US2 was the most complete region for available LLMs`
+
+    A) [Deploy Azure AI Studio](https://github.com/datasnowman/azureaistudio/tree/main#deploy-azure-ai-studio)
+
+    B) [Deploy Azure Machine Learning](https://github.com/datasnowman/azureaistudio/tree/main#deploy-azure-machine-learning)
+
+    C) [Deploy Demo Project Resources](https://github.com/datasnowman/azureaistudio/tree/main#deploy-demo-project-resources)
+ 
+
+2) [Build a RAG App in Azure AI Studio using Code-First](https://github.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-azure-ai-studio-using-code-first)
+
+    `Note: If you did the "Build a RAG App in the Azure AI Studio Playground" use case already you can re-use the Azure AI Studio you have already deployed`
+
+    A) If not you can [Deploy Azure AI Studio](https://github.com/datasnowman/azureaistudio/tree/main#deploy-azure-ai-studio)
+
 
 3) [Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground](https://github.com/datasnowman/azureaistudio/tree/main#build-a-chatgpt4-turbo-with-vision-app-in-the-azure-ai-studio-playground)
+    
+    `Note: At the time of this demo (Feb 23, 2024) ChatGPT Turbo4 with Vision was only available in West US region so it required an additional deployment of Azure AI Studio in West US`
 
-## Prereqs
-
-Clone this GitHub repo
-
-```
-git clone https://github.com/DataSnowman/azureaistudio.git
-```
+    A) [Deploy Azure AI Studio](https://github.com/datasnowman/azureaistudio/tree/main#deploy-azure-ai-studio)
 
 
 ## Deploy Azure AI Studio
@@ -317,11 +334,59 @@ When the app deploys try it out
 
 ### Build a RAG App in Azure AI Studio using Code-First
 
+[`PLEASE REFER TO THE FOLLOWING GITHUB REPO FOR THE CODE-FIRST EXPERIENCE AND AI RESOURCE DEPLOYMENT`](https://github.com/Azure/aistudio-copilot-sample/)
 
+Choices: 
 
+1) [Use Codespaces or local development environment](https://github.com/Azure/aistudio-copilot-sample/tree/main#step-1-set-up-your-development-environment)
 
+2) [Use "Open project in VS Code (Web)" in an already "Deployed Azure AI Studio"](https://github.com/datasnowman/azureaistudio/tree/main#deploy-azure-ai-studio)
+
+Create a `New ai project` in Azure AI Studio
+
+![newaiproject](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/newaiproject.png)
+
+Give the project an name and click `Create an AI project`
+
+![createaiproject](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createaiproject.png)
+
+Click the `Open project in VS Code (Web)` button
+
+![openprojectinvscodeweb](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/openprojectinvscodeweb.png)
+
+Provide a Compute name and Virtual machine size and click create
+
+![createcomputefordev](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/createcomputefordev.png)
+
+When the compute is ready click `Launch`
+
+![launchcompute](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/launchcompute.png)
+
+Follow the README.md
+
+The Azure AI SDK
+To get started with the AI SDK, we recommend the [aistudio-copilot-sample](https://github.com/Azure/aistudio-copilot-sample/) repo as a comprehensive starter repository that includes a few different copilot implementations. For the full list of samples, check out the [Azure AI Samples](https://github.com/azure-samples/azureai-samples) repository.
+
+1) Open a terminal
+2) Clone a sample repo into your project's code folder. You may be prompted to authenticate to Github
+
+```
+cd code
+git clone https://github.com/azure/aistudio-copilot-sample
+```
+
+Follow along in Step 2 of the aistudio-copilot-sample [step-2-create-and-connect-to-azure-resources](https://github.com/azure/aistudio-copilot-sample/tree/main#step-2-create-and-connect-to-azure-resources)
+
+When you are done remember to Stop the compute
+
+![stopcompute](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/stopcompute.png)
 
 
 ### Build a ChatGPT4 Turbo with Vision App in the Azure AI Studio Playground
 
-Remember that fourturbovision Azure OpenAI is only in West US
+`Note: At the time of this demo (Feb 23, 2024) ChatGPT Turbo4 with Vision was only available in West US region so it required an additional deployment of Azure AI Studio in West US`
+
+[Deploy Azure AI Studio](https://github.com/datasnowman/azureaistudio/tree/main#deploy-azure-ai-studio)
+
+
+
