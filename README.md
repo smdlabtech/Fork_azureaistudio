@@ -440,7 +440,7 @@ Describe this image and where I could visit the location
 
 And click on the paperclip attach to add the following picture `beaverlodge.jpg` from the path of the cloned repo `azureaistudio\data\beaverlodge.jpg`
 
-![beaverlodge](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/data/beaverlodge.png)
+![beaverlodge](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/data/beaverlodge.jpg)
 
 ![visionchat](https://raw.githubusercontent.com/datasnowman/azureaistudio/main/media/visionchat.png)
 
