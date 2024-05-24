@@ -177,7 +177,7 @@
               "name": "[parameters('appInsightsLogWorkspaceName')]",
               "location": "[parameters('location')]",
               "tags": "[parameters('tags')]",
-              "condition": "new"
+              "condition": True
             },            
             {
               "type": "Microsoft.Insights/components",
