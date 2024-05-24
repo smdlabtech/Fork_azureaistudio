@@ -118,6 +118,12 @@
                 "description": "AI services name"
               }  
             },
+            "appInsightsLogWorkspaceName": {
+              "type": "string",
+              "metadata": {
+                "description": "Log Analytics Workspace resource name"
+              }
+            },
             "applicationInsightsName": {
               "type": "string",
               "metadata": {
