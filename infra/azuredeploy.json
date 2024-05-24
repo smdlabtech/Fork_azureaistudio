@@ -39,6 +39,13 @@
         "description": "Azure region used for the deployment of all resources."
       }
     },
+    "appInsightsLogWorkspaceName": {
+      "defaultValue": "[concat('ai', uniqueString(parameters('resourceGroupName'), parameters('workspaceName')))]",
+      "type": "String",
+      "metadata": {
+        "description": "Specifies log workspace name of the log workspace created for the Application Insights."
+      }
+    },
     "tags": {
       "type": "object",
       "defaultValue": {},
@@ -113,7 +120,7 @@
               "type": "string",
               "metadata": {
                 "description": "AI services name"
-              }
+              }  
             },
             "applicationInsightsName": {
               "type": "string",
@@ -163,10 +170,21 @@
           },
           "resources": [
             {
+              "type": "Microsoft.OperationalInsights/workspaces",
+              "apiVersion": "2020-08-01",
+              "name": "[parameters('appInsightsLogWorkspaceName')]",
+              "location": "[parameters('location')]",
+              "tags": "[parameters('tags')]",
+              "condition": "new"
+            },            
+            {
               "type": "Microsoft.Insights/components",
               "apiVersion": "2020-02-02",
               "name": "[parameters('applicationInsightsName')]",
               "location": "[parameters('location')]",
+              "dependsOn": [
+                "[resourceId('Microsoft.OperationalInsights/workspaces', parameters('appInsightsLogWorkspaceName'))]"
+              ],
               "tags": "[parameters('tags')]",
               "kind": "web",
               "properties": {
