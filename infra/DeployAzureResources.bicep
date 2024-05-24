@@ -10,7 +10,7 @@ param sku string = 'S0'
 var storageAccountName = '${uniqueString(resourceGroup().id)}sa'
 var searchServiceName = '${uniqueString(resourceGroup().id)}-search'
 var cognitiveServiceNameSpeech = '${uniqueString(resourceGroup().id)}-speech'
-var cognitiveServiceNameOAI = '${uniqueString(resourceGroup().id)}-openai'
+//var cognitiveServiceNameOAI = '${uniqueString(resourceGroup().id)}-openai'
 
 var locations = [
   {
@@ -42,6 +42,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   kind: 'StorageV2'
   properties: {
     accessTier: 'Hot'
+    isHnsEnabled: true
   }
 }
 
@@ -67,7 +68,7 @@ resource cognitiveService1 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
   }
 }
 
-resource cognitiveService2 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
+/*resource cognitiveService2 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
   name: cognitiveServiceNameOAI
   location: location
   sku: {
@@ -79,10 +80,10 @@ resource cognitiveService2 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
       statisticsEnabled: false
     }
   }
-}
+}*/
 
 //output cosmosDbEndpoint string = cosmosDbAccount.properties.documentEndpoint
 output storageAccountName string = storageAccount.name
 output searchServiceName string = searchService.name
 output cognitiveServiceNameSpeech string = cognitiveService1.name
-output cognitiveServiceNameOAI string = cognitiveService2.name
+//output cognitiveServiceNameOAI string = cognitiveService2.name
