@@ -176,8 +176,7 @@
               "apiVersion": "2020-08-01",
               "name": "[parameters('appInsightsLogWorkspaceName')]",
               "location": "[parameters('location')]",
-              "tags": "[parameters('tags')]",
-              "condition": True
+              "tags": "[parameters('tags')]"
             },            
             {
               "type": "Microsoft.Insights/components",
