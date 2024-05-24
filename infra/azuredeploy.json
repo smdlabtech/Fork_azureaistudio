@@ -39,13 +39,6 @@
         "description": "Azure region used for the deployment of all resources."
       }
     },
-    "appInsightsLogWorkspaceName": {
-      "defaultValue": "[concat('ai', uniqueString(parameters('resourceGroupName'), parameters('workspaceName')))]",
-      "type": "String",
-      "metadata": {
-        "description": "Specifies log workspace name of the log workspace created for the Application Insights."
-      }
-    },
     "tags": {
       "type": "object",
       "defaultValue": {},
@@ -77,6 +70,9 @@
           },
           "keyvaultName": {
             "value": "[format('kv-{0}-{1}', variables('name'), variables('uniqueSuffix'))]"
+          },
+          "appInsightsLogWorkspaceName": {
+            "value": "[format('appi-{0}-{1}', variables('name'), variables('uniqueSuffix'))]"
           },
           "applicationInsightsName": {
             "value": "[format('appi-{0}-{1}', variables('name'), variables('uniqueSuffix'))]"
