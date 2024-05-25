@@ -187,18 +187,12 @@
                 "[resourceId('Microsoft.OperationalInsights/workspaces', parameters('appInsightsLogWorkspaceName'))]"
               ],
               "tags": "[parameters('tags')]",
-              "kind": "web",
               "properties": {
+                "ApplicationId": "[parameters('applicationInsightsName')]",
                 "Application_Type": "web",
-                "DisableIpMasking": false,
-                "DisableLocalAuth": false,
-                "Flow_Type": "Bluefield",
-                "ForceCustomerStorageForProfiler": false,
-                "ImmediatePurgeDataOn30Days": true,
-                "IngestionMode": "ApplicationInsights",
-                "publicNetworkAccessForIngestion": "Enabled",
-                "publicNetworkAccessForQuery": "Disabled",
-                "Request_Source": "rest"
+                "Flow_Type": "Redfield",
+                "Request_Source": "IbizaMachineLearningExtension",
+                "WorkspaceResourceId": "[resourceId('Microsoft.OperationalInsights/workspaces', parameters('appInsightsLogWorkspaceName'))]"
               }
             },
             {
