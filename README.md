@@ -1,6 +1,42 @@
 # Azure AI Studio Demo and Workshop
 
+To see if you have existing Azure AI Resources or to return to previously deployed Azure AI Resourses:
+- Login to Azure AI Studio https://ai.azure.com/
+- Login to Azure Machine Learning Studio https://ml.azure.com/
+
+If you have no existing Azure AI Resourses please use this Azure AI Workshop GitHub Repo to deploy them.
+
 This is a GitHub Repo for an Azure AI Studio Demo and Workshop deployed using Azure ARM Templates Accelerators and Bicep language to deploy the development environments.  It includes three development use cases:
+
+## Steps in creating a Chat Web App using RAG in Azure AI Studio
+
+Step 1. Deploy Azure AI Studio using the ARM Deploy to Azure button
+
+aistudiowestus
+
+Step 2. Deploy Azure AI Studio services using Bicep script in VsCode
+
+aistudiowestusprojresources
+
+Step 3. Delete the exiting AI Hub in the Azure Portal Resource Group
+
+Step 4. Create a new Azure AI Studio Hub in AI Studio
+
+Step 5. Create a new AI Studio Project in AI Studio
+
+Step 6. Create a new connection and Data source in the Project Components of AI Studio
+
+Step 7. Create a new Index in the Project Components of AI Studio
+
+Step 8. Create a new system message and Add your data in Chat in the Project playground of AI Studio
+
+Step 9. Test your chat in Chat of the Project playground of AI Studio
+
+Step 10. Deploy to a web app in Chat of the Project playground of AI Studio
+
+Step 11. Launch the web app in Chat of the Project playground of AI Studio
+
+Step 12. Login to the web app and test the chat
  
 1) [Build a RAG App in the Azure AI Studio Playground](https://github.com/datasnowman/azureaistudio/tree/main#build-a-rag-app-in-the-azure-ai-studio-playground)
 

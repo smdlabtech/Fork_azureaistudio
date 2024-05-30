@@ -7,10 +7,10 @@ param location string = resourceGroup().location
 param sku string = 'S0'
 
 //var cosmosDbName = '${uniqueString(resourceGroup().id)}-cosmosdb'
-var storageAccountName = '${uniqueString(resourceGroup().id)}sa'
+//var storageAccountName = '${uniqueString(resourceGroup().id)}sa'
 var searchServiceName = '${uniqueString(resourceGroup().id)}-search'
 var cognitiveServiceNameSpeech = '${uniqueString(resourceGroup().id)}-speech'
-//var cognitiveServiceNameOAI = '${uniqueString(resourceGroup().id)}-openai'
+var cognitiveServiceNameOAI = '${uniqueString(resourceGroup().id)}-openai'
 
 var locations = [
   {
@@ -33,7 +33,7 @@ var locations = [
   }
 }*/
 
-resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
+/*resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   name: storageAccountName
   location: location
   sku: {
@@ -44,7 +44,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
     accessTier: 'Hot'
     isHnsEnabled: true
   }
-}
+}*/
 
 resource searchService 'Microsoft.Search/searchServices@2022-09-01' = {
   name: searchServiceName
@@ -68,7 +68,7 @@ resource cognitiveService1 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
   }
 }
 
-/*resource cognitiveService2 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
+resource cognitiveService2 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
   name: cognitiveServiceNameOAI
   location: location
   sku: {
@@ -80,10 +80,10 @@ resource cognitiveService1 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
       statisticsEnabled: false
     }
   }
-}*/
+}
 
 //output cosmosDbEndpoint string = cosmosDbAccount.properties.documentEndpoint
-output storageAccountName string = storageAccount.name
+//output storageAccountName string = storageAccount.name
 output searchServiceName string = searchService.name
 output cognitiveServiceNameSpeech string = cognitiveService1.name
-//output cognitiveServiceNameOAI string = cognitiveService2.name
+output cognitiveServiceNameOAI string = cognitiveService2.name
