@@ -50,7 +50,7 @@ resource searchService 'Microsoft.Search/searchServices@2022-09-01' = {
   name: searchServiceName
   location: location
   sku: {
-    name: 'free'
+    name: 'basic'
   }
 }
 
